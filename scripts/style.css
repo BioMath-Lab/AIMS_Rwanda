@@ -1,0 +1,285 @@
+body { 
+font-family: "Trebuchet MS", sans-serif; 
+line-height: 1.5;
+font-size: 14px;
+text-align:justify;
+background: #2e2a1e; /* beige*/
+margin: 0;
+padding: 0;
+}
+
+a { 
+color: #000000; /* black*/
+text-decoration: none;
+} 
+
+a:link {
+color: #7f372b; /* blue */ 
+}
+
+a:hover { 
+color: #0000FF; /* blue #880000 = brick red*/ 
+} 
+
+h1 {
+font-size: 38px;
+margin: 0;
+padding-left: 20px;
+color: #ffffff; /* white */
+text-align:center;
+}
+
+h1 a { 
+text-decoration: none; 
+color: #871b3a; /* pale pink */
+} 
+
+h1 a:hover { 
+border-bottom: 1px solid; 
+color: #871b3a; /* pale pink */
+} 
+
+#wrap { 
+width: 940px;
+margin: 20px auto;
+background: #ffffff; /* white */
+padding: 20px;
+}
+
+#logotop {
+float: center;
+background: #ffffff; /* white */
+height: 100px;
+width: 940px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+background: #ffffff;"
+}
+
+#header {
+background: #871b3a; /* almost black */
+height: 100px;
+width: 940px;
+line-height: 50px;
+}
+
+#logo {
+float: right;
+background: #ffffff; /* white */
+height: 100px;
+width: 350px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+background: #ffffff;"
+}
+
+#menu {
+background: #2e2a1e; /* dark brown */
+height: 30px;
+line-height: 30px;
+}
+
+#menu ul {
+list-style-type: none;
+margin: 0;
+padding-left: 0px;
+}
+
+#menu ul li {
+display: block;
+float: left;
+}
+
+#menu ul li a {
+display: block;
+padding: 0 10px 0 10px;
+text-decoration: none;
+color: #ffffff; /* white */
+font-size: 13px;
+font-weight: 600;
+}
+
+#menu ul li a:hover {
+color: #ffffff; /* white */
+background: #2e2a1e; /* dark blue --> sidebar items*/
+}
+
+#content {
+float: right;
+width: 725px;
+background: #eeeeee; /* pale beige */
+margin-top: 20px;
+}
+
+#content h2 {
+margin: 0;
+color: #ffffff; /* pale pink */
+height: 30px;
+line-height: 30px;
+background: #2e2a1e; /* almost black */
+padding: 0 0 0 10px;
+font-size: 16px;
+}
+
+#content p { 
+/* TOP RIGHT BOTTOM LEFT */
+padding: 0px 10px 0px 10px; 
+color: #232323;/* also almost black */
+} 
+
+#content ul { 
+padding: 0 20px 10px 30px; 
+}
+
+#content ol { 
+padding: 0 20px 0px 40px; 
+}
+
+#content li { 
+padding: 0 0px 0px 0px; 
+}
+
+#content table {
+padding: 0 0 0px 0px;
+margin: 10px;
+}
+
+#content table td {
+padding: 0px 5px 0px 5px;
+}
+
+#content .cols {
+  /*padding: 0px 10px 0px 10px; */
+  column-count: 2;
+}
+
+#refs {
+float: right;
+width: 685px;
+background: #871b3a; /* pale pink */
+margin-top: 20px;
+}
+
+#refs ul { 
+padding: 0 20px 10px 30px; 
+text-align:left;
+}
+
+#sidebar {
+float: left;
+margin-top: 20px;
+width: 210px;
+background: #eeeeee; /* light grey */
+border-bottom: 5px solid #871b3a; /* dark grey */
+}
+
+#sidebar h3 {
+background: #2e2a1e; /* almost black */
+height: 30px;
+line-height: 30px;
+font-weight: 600;
+font-size: 18px;
+margin: 0; 
+padding: 0 0 0 10px; 
+color: #ffffff; /* pale pink */
+}
+
+#sidebar p { 
+padding: 0 10px 10px 10px; 
+color: #871b3a; /* also almost black */
+} 
+
+#sidebar ul {
+list-style-type: none;
+padding: 10px 0 10px 10px;
+margin: 0;
+}
+
+#sidebar ul li {
+font-size:14px;
+padding: 5px 0px;
+margin: 0;
+border-bottom: 1px dotted #871b3a; /* darker grey */
+/* border-top: 1px solid #6FAB4F;*/ /* sanparks green */ 
+}
+
+#sidebar ul li a:link {
+color: #000000; /* almost black */ 
+}
+
+#sidebar ul li.selected a { 
+background: #eeeeee; /* light grey */
+color: #871b3a;/* blue like top banner #B48A7C = mid brown */
+height: 20px;
+padding: 5px 0px;
+} 
+
+#sidebar ul li a:hover { 
+background: #eeeeee;
+color: #871b3a; /* blue like top banner #B48A7C = mid brown */
+} 
+
+#sidebar ul ul { 
+padding: 2px 0 2px 20px; 
+}
+
+#footer { 
+background: #871b3a; /* almost black */
+padding: 10px 0;
+text-align: center;
+color: #ffffff; /* white */
+margin-top: 20px;
+}
+
+#footer p { 
+padding: 0; 
+margin: 0; 
+}
+
+#footer a { 
+color: #ffffff; /* white */
+} 
+
+#footer a:hover { 
+text-decoration: underline; 
+}
+
+/* FILTER TABLE 1 */
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 170px;
+  line-height: 20px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 8px;
+  background-color: #871b3a;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #871b3a;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
