@@ -139,6 +139,10 @@ padding: 0 20px 0px 40px;
 padding: 0 0px 0px 0px; 
 }
 
+#content li a:link {
+color: #871b3a;
+}
+
 #content table {
 padding: 0 0 0px 0px;
 margin: 10px;
